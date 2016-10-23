@@ -1,0 +1,5 @@
+services:
+  state_machine_test.fulfillment_guard:
+    class: Drupal\state_machine_test\Guard\FulfillmentGuard
+    tags:
+      - { name: state_machine.guard, group: order }
